@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/ise/jsonDL/preliminary_trials/env/cnn.py", line 323, in step_in_mode_train
+    tf_info, _, tf_done = next(tf_phased_train)
+  File "/home/ise/jsonDL/src/train_process/tf/phased_normal.py", line 61, in phased_normal_train
+    train_step(model, x, y, train_loss, train_optim, loss_metric_train, metrics_dict_train)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/ise/jsonDL/src/train_process/tf/phased_normal.py", line 96, in train_step
+    predicts = model(x, training=True)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/backend.py", line 5717, in depthwise_conv2d
+    data_format=tf_data_format)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Exception encountered when calling layer "depthwise_conv2d_16" (type DepthwiseConv2D).
+
+Current implementation only supports equal length strides in the row and column dimensions. [Op:DepthwiseConv2dNative]
+
+Call arguments received:
+  • inputs=tf.Tensor(shape=(100, 8, 6, 1), dtype=float32)
