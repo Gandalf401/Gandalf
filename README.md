@@ -13,7 +13,6 @@ Some codes and results about our paper, here is the structure of our directory:
   - train_process: Train process across frameworks API
   - model_json.py: Entrance implementation for model generation
   - *.json: Examples for JSON files
-  - **Abstract API and some codes are retained, and most of the details codes are removed.**
 
 - **/torchsummary:** Open source package for the function of summary() for PyTorch
 
