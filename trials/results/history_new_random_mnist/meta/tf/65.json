@@ -1,0 +1,1 @@
+{"st": "49", "st+1": "25", "reward": 0.3468857705593109, "time": 43.466238260269165, "type": "INCONSISTENCY", "json": {"framework": "TensorFlow", "input_shape": [28, 28, 1], "network": [{"name": "Cast", "params": {"target_dtype": "float32"}}, {"name": "GlobalAvgPool2d", "params": {}}, {"name": "Dense", "params": {"in_features": 1, "out_features": 10}}, {"name": "Softmax"}]}}
