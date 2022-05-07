@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/ise/jsonDL/preliminary_trials/env/cnn.py", line 324, in step_in_mode_train
+    torch_info, _, torch_done = next(torch_phased_train)
+  File "/home/ise/jsonDL/src/train_process/torch/phased_normal.py", line 68, in phased_normal_train
+    out = model(x)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ise/jsonDL/src/interpreter/pytorch_model.py", line 60, in forward
+    x = f(x)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (100x760038 and 733488x10)

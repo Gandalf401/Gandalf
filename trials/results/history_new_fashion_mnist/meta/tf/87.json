@@ -1,0 +1,1 @@
+{"st": "84", "st+1": "63", "reward": 0.013223428279161453, "time": 8.149253368377686, "type": "INCONSISTENCY", "json": {"framework": "TensorFlow", "input_shape": [28, 28, 1], "network": [{"name": "GaussianNoise", "params": {"stddev": 0.006637481046169034}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 784, "out_features": 10}}, {"name": "Softmax"}]}}

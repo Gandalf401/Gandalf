@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ise/jsonDL/preliminary_trials/env/cnn.py", line 263, in step_in_mode_train
+    tf_model = ModelJSON(tf_dict)
+  File "/home/ise/jsonDL/src/model_json.py", line 68, in __init__
+    self.__init_network(network_in_json)
+  File "/home/ise/jsonDL/src/model_json.py", line 123, in __init_network
+    network = op(network)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/layers/core/reshape.py", line 110, in _fix_unknown_dimension
+    raise ValueError(msg)
+ValueError: Exception encountered when calling layer "reshape_11" (type Reshape).
+
+total size of new array must be unchanged, input_shape = [31, 1, 1, 1], output_shape = [1, 5, 7]
+
+Call arguments received:
+  • inputs=tf.Tensor(shape=(None, 31, 1, 1, 1), dtype=float32)

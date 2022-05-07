@@ -1,0 +1,1 @@
+{"st": "73", "st+1": "49", "reward": 9.385424613952637, "time": 43.41136717796326, "type": "CRASH", "json": {"framework": "TensorFlow", "input_shape": [32, 32, 3], "network": [{"name": "Tanh", "params": {}}, {"name": "Cast", "params": {"target_dtype": "float64"}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 100}}, {"name": "Softmax"}]}}

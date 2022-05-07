@@ -1,0 +1,1 @@
+{"st": "59", "st+1": "58", "reward": 3.519534111022949, "time": 44.61118006706238, "type": "OUTPUT-NAN/INF", "json": {"framework": "TensorFlow", "input_shape": [32, 32, 3], "network": [{"name": "Square", "params": {}}, {"name": "Rsqrt", "params": {}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 100}}, {"name": "Softmax"}]}}

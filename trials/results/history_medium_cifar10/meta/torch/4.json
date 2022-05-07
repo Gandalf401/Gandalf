@@ -1,0 +1,1 @@
+{"st": "54", "st+1": "29", "reward": 0.02080078236758709, "time": 35.394527196884155, "type": "INCONSISTENCY", "json": {"framework": "PyTorch", "input_shape": [32, 32, 3], "network": [{"name": "Ceil", "params": {}}, {"name": "Flatten", "params": {}}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 10}}, {"name": "Softmax"}]}}

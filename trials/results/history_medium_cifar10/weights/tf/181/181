@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ise/jsonDL/preliminary_trials/env/cnn.py", line 262, in step_in_mode_train
+    torch_model = ModelJSON(torch_dict)
+  File "/home/ise/jsonDL/src/model_json.py", line 68, in __init__
+    self.__init_network(network_in_json)
+  File "/home/ise/jsonDL/src/model_json.py", line 135, in __init_network
+    self.network = PyTorchNetwork(network_in_json, interpreter, self.input_shape)
+  File "/home/ise/jsonDL/src/interpreter/pytorch_model.py", line 37, in __init__
+    op, current_shape = interpreter.get_op_and_shape(layer_name, params, current_shape)
+  File "/home/ise/jsonDL/src/interpreter/interpreter/torch_interpreter.py", line 10, in get_op_and_shape
+    return eval(methods_table[name] + '(current_shape, params, \"PyTorch\")')
+  File "<string>", line 1, in <module>
+  File "/home/ise/jsonDL/src/interpreter/interpreter/ops/dense.py", line 21, in get_op_and_shape
+    return torch.nn.Linear(in_features, out_features, bias), output_shape
+  File "/home/ise/jsonDL/preliminary_trials/dqn/envs/tfpMedium/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 81, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+RuntimeError: Trying to create tensor with negative dimension -98787: [10, -98787]

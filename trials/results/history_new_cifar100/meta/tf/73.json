@@ -1,0 +1,1 @@
+{"st": "84", "st+1": "31", "reward": 0.018360082060098648, "time": 10.46795392036438, "type": "INCONSISTENCY", "json": {"framework": "TensorFlow", "input_shape": [32, 32, 3], "network": [{"name": "Resize", "params": {"output_shape": [38, 62], "mode": "bicubic"}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 7068, "out_features": 100}}, {"name": "Softmax"}]}}

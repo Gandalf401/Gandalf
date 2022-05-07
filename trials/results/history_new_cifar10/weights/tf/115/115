@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ise/jsonDL/preliminary_trials/env/cnn.py", line 263, in step_in_mode_train
+    tf_model = ModelJSON(tf_dict)
+  File "/home/ise/jsonDL/src/model_json.py", line 68, in __init__
+    self.__init_network(network_in_json)
+  File "/home/ise/jsonDL/src/model_json.py", line 123, in __init_network
+    network = op(network)
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/ise/envs/tfpNewest/lib/python3.7/site-packages/keras/backend.py", line 5534, in conv2d_transpose
+    assert dilation_rate[0] == dilation_rate[1]
+AssertionError: Exception encountered when calling layer "conv2d_transpose_24" (type Conv2DTranspose).
+
+
+
+Call arguments received:
+  • inputs=tf.Tensor(shape=(None, 32, 32, 3), dtype=float32)
