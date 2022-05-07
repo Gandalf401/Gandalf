@@ -1,1 +1,0 @@
-{"st": "84", "st+1": "63", "reward": 0.037408024072647095, "time": 8.890067338943481, "type": "INCONSISTENCY", "json": {"framework": "PyTorch", "input_shape": [32, 32, 3], "network": [{"name": "GaussianNoise", "params": {"stddev": 0.009387498670455777}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 10}}, {"name": "Softmax"}]}}

@@ -1,1 +1,0 @@
-{"st": "54", "st+1": "58", "reward": 3.3813319206237793, "time": 35.8348114490509, "type": "OUTPUT-NAN/INF", "json": {"framework": "PyTorch", "input_shape": [32, 32, 3], "network": [{"name": "Ceil", "params": {}}, {"name": "Rsqrt", "params": {}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 10}}, {"name": "Softmax"}]}}

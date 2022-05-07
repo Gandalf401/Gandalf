@@ -1,1 +1,0 @@
-{"st": "84", "st+1": "41", "reward": 0.9543262720108032, "time": 8.343122959136963, "type": "INCONSISTENCY", "json": {"framework": "PyTorch", "input_shape": [32, 32, 3], "network": [{"name": "Dropout", "params": {"p": 0.21153200224699376}}, {"name": "Flatten"}, {"name": "Dense", "params": {"in_features": 3072, "out_features": 10}}, {"name": "Softmax"}]}}

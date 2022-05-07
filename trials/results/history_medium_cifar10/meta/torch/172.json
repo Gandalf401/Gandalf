@@ -1,1 +1,0 @@
-{"st": "84", "st+1": "24", "reward": 0.23396310210227966, "time": 14.38120985031128, "type": "INCONSISTENCY", "json": {"framework": "PyTorch", "input_shape": [32, 32, 3], "network": [{"name": "GlobalMaxPool2d", "params": {}}, {"name": "Dense", "params": {"in_features": 3, "out_features": 10}}, {"name": "Softmax"}]}}
